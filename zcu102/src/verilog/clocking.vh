@@ -29,7 +29,7 @@ hw/src/constrs/pin_constraints.xdc
 
 //`define RC_CLK_DIVIDE   16.0
 //50MHz
-`define RC_CLK_DIVIDE   24.0
+//`define RC_CLK_DIVIDE   24.0
 //100MHz
 //`define RC_CLK_DIVIDE   12.01
 
@@ -44,7 +44,7 @@ hw/src/constrs/pin_constraints.xdc
 
 
 //150Mhz
-//`define RC_CLK_DIVIDE   8.008
+`define RC_CLK_DIVIDE   8.008
 
 //180MHz
 //`define RC_CLK_DIVIDE   6.673

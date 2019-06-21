@@ -1,0 +1,9 @@
+#!/bin/bash
+
+bitdir=zcu102_rocketchip_ZynqConfig/zcu102_rocketchip_ZynqConfig.runs/impl_1
+outdir=soft_config
+name=rocketchip_wrapper
+
+cp $bitdir/$name.bit $outdir/$name.bit
+cp $bitdir/$name.sysdef $outdir/$name.hdf
+
